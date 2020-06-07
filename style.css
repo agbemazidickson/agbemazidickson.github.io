@@ -1,0 +1,116 @@
+
+body {
+	font-size: 2rem
+}
+
+
+h1 {
+	text-align: center;
+	font-family: 'Gloria Hallelujah';
+}
+a {
+	color: #1dd3f8;
+}
+hr {
+	max-width: 400px;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: #F05F44;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: whitesmoke;
+}
+.top-left {
+	color: 2px solid gray;
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+img.responsive {
+	height: auto;
+	width: 100%;
+}
+
+p.side-text {
+	float: right;
+	text-align: center;
+	font-size: 25px;
+	line-height: 25px;
+	font-style: italic;
+	font-family: 'Kavivanar'
+}
+
+p {
+	width: 250px;
+	height: 300px;
+	text-align: center;
+}
+
+.side-text {
+	text-align: right;
+	width: 50%;
+}
+
+
+/* DONE: Image that floats to the left with some text. */
+/* TODO: Make the text at side of second image responsive. */
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 1px;
+}
+
+th {
+	height: 30px;
+	width: 40%;
+	white-space: nowrap;
+}
+
+th, td {
+	border: 1px solid gray;
+	text-align: left;
+	padding: 8px;
+	font-family: 'Poiret One', cursive;
+}
+
+tr:nth-child(even) {
+	background-color: #dddd;
+}
+
+h2 {
+	background-color: chocolate;
+	border: 1px solid gray;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-collapse: collapse;
+	text-align: center;
+	font-family: cursive;
+}
+
+footer {
+	text-align: center;
+	font-family: cursive;
+}
+
+i {
+	position: relative;
+    top: 2px;
+    color: #1dd3f8;
+    -webkit-animation: heartBeat 1000ms infinite linear;
+    animation: heartBeat 1000ms infinite linear;
+}
+
+.heart::before {
+	content: "\ea9a";
+	size: 20px;
+}
+
+.footer a {
+	color: #1dd3f8;
+	font-size: 20px;
+}
