@@ -36,25 +36,36 @@ img.responsive {
 }
 
 p.side-text {
-	float: right;
-	text-align: center;
-	font-size: 25px;
-	line-height: 25px;
+	/*display: ruby-base-container;*/
+	/*max-width: 100%;*/
+	/*text-align: cover;*/
+	display: flex-box;
+	object-fit: contain;
+	align-self: flex-start;
+	float: left;
+	font-size: 23px;
+	line-height: 15px;
 	font-style: italic;
 	font-family: 'Kavivanar'
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+    
 }
 
-p {
+
+
+
+/*p {
 	width: 250px;
 	height: 300px;
 	text-align: center;
-}
+}*/
 
-.side-text {
+/*.side-text {
 	text-align: right;
 	width: 50%;
 }
-
+*/
 
 /* DONE: Image that floats to the left with some text. */
 /* TODO: Make the text at side of second image responsive. */
